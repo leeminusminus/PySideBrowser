@@ -114,5 +114,5 @@ class MainWindow(QMainWindow):
 
     def web_title(self):
         new_url = self.tabs.currentWidget().url().toString()
-        new_url = new_url[8:] if new_url[8:12] == "www" else new_url[12:]
+        new_url = new_url[12:] if new_url[8:11] == "www" else new_url[8:]
         self.tabs.setTabText(self.tabs.currentIndex(),new_url[:new_url.find("/")])
