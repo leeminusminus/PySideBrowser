@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 from PySide6.QtWidgets import QApplication
-from pybrowser import MainWindow
+from pybrowser6 import MainWindow
 import sys
 
 app = QApplication()
