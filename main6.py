@@ -10,4 +10,4 @@ win = MainWindow()
 win.new_tab()
 win.show()
 
-app.exec_()
+app.exec()
