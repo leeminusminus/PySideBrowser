@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 from PySide2.QtWidgets import QApplication
 from pybrowser import MainWindow
 import sys
