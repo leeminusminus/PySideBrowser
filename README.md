@@ -5,4 +5,6 @@ It can currently do (most) things your run-of-the-mill browser can do, though it
 
 If for any reason you want me to add something, you can send me an email at superslothsworld2@gmail.com.
 
+(or send me a PR)
+
 Otherwise, just make sure PySide2 is installed (or manually reimport it to PySide6) and enjoy.
