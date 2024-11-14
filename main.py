@@ -5,7 +5,7 @@ import sys
 app = QApplication()
 
 win = MainWindow()
-win.add_web_tab()
+win.new_tab()
 win.show()
 
 app.exec_()
